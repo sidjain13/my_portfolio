@@ -45,7 +45,7 @@ const Home = () => {
 <div id="Home" className='w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 '>
       <div className='max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
         <div className='flex flex-col justify-center h-full'>
-            <h2 className='text-white font-bold text-4xl sm:text-7xl mt-16 md:mt-0'>I'm a Full Stack Developer</h2>
+            <h2 className='text-white font-bold text-4xl sm:text-7xl  md:mt-0'>I'm a Full Stack Developer</h2>
 
                   <p className='text-gray-500 py-4 max-w-md '>I love to work on web application using technologies like React , Tailwind , MongoDB , ExpressJs , NodeJs . Also Interested in programming using c++ and python as well .
 </p>
