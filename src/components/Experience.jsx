@@ -98,7 +98,7 @@ const Experience = () => {
        
     //   </div>
     // </div>
-    <div id="Experience" className='w-full bg-gradient-to-b from-black to-gray-800 text-white md:h-screen' >
+    <div id="Experience" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white md:h-screen' >
 
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
