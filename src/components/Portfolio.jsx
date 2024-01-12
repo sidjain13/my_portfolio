@@ -6,21 +6,31 @@ import reactParallax from "../assets/portfolio/reactParallax.jpg"
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
 import reactWeather from "../assets/portfolio/reactWeather.jpg"
 import ecommerce from "../assets/portfolio/ecommerce.jpg"
+import amazon from "../assets/portfolio/amazon.jpg"
+import heart from "../assets/portfolio/heart.jpg"
+import sales from "../assets/portfolio/sales.jpg"
 
 const Portfolio = () => {
 
     const portfolios=[
         {
             id:1,
-            src:arrayDestruct,
+            src:amazon,
+            title:'Amazon Website' ,
+            demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
+            
         },
         {
             id:2,
-            src:installNode,
+            src:heart,
+            title:'Heart Failure Prediction',
+            demo:'https://github.com/sidjain13/heart-failure-prediction'
         },
         {
             id:3,
-            src:navbar,
+            src:sales,
+            title:'Sales Dashboard',
+            demo:'https://github.com/sidjain13/sales-dashboard'
         },
         {
             id:4,
@@ -36,56 +46,33 @@ const Portfolio = () => {
         },
     ]
   return (
-    // <div id="Portfolio" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white md:h-screen' >
-    //   <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-
-    //     <div className='pb-8 '>
-    //         <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>Portfolio</p>
-    //         <p className='py-6'>Check out some of my work right here</p>
-
-    //     </div>
-
-        
-
-    //     <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-
-    //     {
-    //         portfolios.map(l=>(
-    //             <div key={l.id} className='shadow-md shadow-gray-600 rounded-lg'>
-    //             <img src={l.src} alt="" className='rounded-md hover:scale-105 duration-200'/>
-    //             <div className='flex items-center justify-center'>
-    //                 <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-    //                 <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
-    //             </div>
-    //         </div>
-    //         ))
-    //     }
-            
-    //     </div>
-
-       
-    //   </div>
-    // </div>
-    <div id="Portfolio" className='w-full bg-gradient-to-b from-black to-gray-800 text-white h-screen' >
+    <div id="Projects" className='w-full bg-gradient-to-b from-black to-gray-800 text-white h-screen' >
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
         <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>Portfolio</p>
+            <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>Projects</p>
             <p className='py-6'>Check out some of my work right here</p>
 
         </div>
 
         
 
-        <div className='grid grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+        <div className='grid grid-cols-2 md:grid-cols-3 gap-7 md:gap-10 md:px-12 px-3 sm:px-0'>
 
         {
             portfolios.map(l=>(
                 <div key={l.id} className='shadow-md shadow-gray-600 rounded-lg '>
-                    <img src={l.src} alt="" className='rounded-md hover:scale-105 duration-200'/>
-                    <div className='flex items-center justify-center '>
-                        <button className='w-1/2 py-3 md:m-4 duration-200 hover:scale-105'>Demo</button>
-                        <button className='w-1/2 py-3 md:m-4 duration-200 hover:scale-105'>Code</button>
+                    <img src={l.src} alt="" className='rounded-md hover:scale-105 duration-200 md:h-2/3 h-2/4 w-full '/>
+                    <div className='flex flex-col items-center justify-center '>
+                        <div className='flex flex-col justify-center items-center '>
+                            <p className='py-2 font-bold text-center text-xs md:text-sm'>{l.title}</p>
+                            {/* <button className='w-1/2  md:m-4 duration-200 hover:scale-105'><a href="https://sidjain13.github.io/amazon_small/">Demo</a></button> */}
+                            {/* <button  className='w-1/2 md:m-4 duration-200 hover:scale-105'><a target='_blank' href={l.demo}>Code</a></button> */}
+                            <div>
+                                <button  className='text-white font-bold bg-gradient-to-b from-cyan-500 to-blue-500 px-3 my-2 mx-auto rounded-md hover:scale-110 duration-300'><a target='_blank' href={l.demo}>Code</a></button>
+
+                            </div>
+                        </div>
                     </div>
             </div>
             ))

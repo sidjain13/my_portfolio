@@ -13,7 +13,7 @@ function App() {
       <Home/>
       <SocialLinks/>
       <About/>
-      {/* <Portfolio/> */}
+      <Portfolio/>
       <Experience/>
       <Contact/>
     </>
