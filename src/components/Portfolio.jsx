@@ -10,17 +10,12 @@ import amazon from "../assets/portfolio/amazon.jpg"
 import heart from "../assets/portfolio/heart.jpg"
 import sales from "../assets/portfolio/sales.jpg"
 import movie from "../assets/portfolio/movie.jpg"
+import bloodBank from "../assets/portfolio/bloodBank.jpg"
 
 const Portfolio = () => {
 
     const portfolios=[
-        {
-            id:1,
-            src:movie,
-            title:'Movie Recommendation System' ,
-            demo:'https://github.com/sidjain13/movie-recommendation-system1'
-            
-        },
+       
         {
             id:2,
             src:heart,
@@ -41,19 +36,20 @@ const Portfolio = () => {
             
         },
         {
-            id:4,
-            src:amazon,
-            title:'Amazon Website' ,
-            demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
+            id:5,
+            src:bloodBank,
+            title:'Blood Bank Management System' ,
+            demo:'https://github.com/sidjain13/Blood-Bank-Management-System-Using-MERN/tree/main'
             
         },
         {
-            id:4,
-            src:amazon,
-            title:'Amazon Website' ,
-            demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
+            id:1,
+            src:movie,
+            title:'Movie Recommendation System' ,
+            demo:'https://github.com/sidjain13/movie-recommendation-system1'
             
         },
+       
     
     ]
   return (
