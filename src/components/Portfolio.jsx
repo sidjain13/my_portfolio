@@ -5,7 +5,7 @@ import navbar from "../assets/portfolio/navbar.jpg"
 import reactParallax from "../assets/portfolio/reactParallax.jpg"
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
 import reactWeather from "../assets/portfolio/reactWeather.jpg"
-import ecommerce from "../assets/portfolio/ecommerce.jpg"
+import ecommerce1 from "../assets/portfolio/ecommerce1.jpg"
 import amazon from "../assets/portfolio/amazon.jpg"
 import heart from "../assets/portfolio/heart.jpg"
 import sales from "../assets/portfolio/sales.jpg"
@@ -15,7 +15,20 @@ import bloodBank from "../assets/portfolio/bloodBank.jpg"
 const Portfolio = () => {
 
     const portfolios=[
-       
+
+        {
+            id:6,
+            src:ecommerce1,
+            title:'Online Shopping Website (MERN)',
+            demo:'https://github.com/sidjain13/Coding-Raja-Technologies-Internship---ecommerce-website'
+        },
+        {
+            id:1,
+            src:movie,
+            title:'Movie Recommendation System' ,
+            demo:'https://github.com/sidjain13/movie-recommendation-system1'
+            
+        },
         {
             id:2,
             src:heart,
@@ -31,7 +44,7 @@ const Portfolio = () => {
         {
             id:4,
             src:amazon,
-            title:'Amazon Website' ,
+            title:'Amazon Website (PHP)' ,
             demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
             
         },
@@ -42,13 +55,7 @@ const Portfolio = () => {
             demo:'https://github.com/sidjain13/Blood-Bank-Management-System-Using-MERN/tree/main'
             
         },
-        {
-            id:1,
-            src:movie,
-            title:'Movie Recommendation System' ,
-            demo:'https://github.com/sidjain13/movie-recommendation-system1'
-            
-        },
+       
        
     
     ]
