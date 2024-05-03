@@ -9,15 +9,16 @@ import ecommerce from "../assets/portfolio/ecommerce.jpg"
 import amazon from "../assets/portfolio/amazon.jpg"
 import heart from "../assets/portfolio/heart.jpg"
 import sales from "../assets/portfolio/sales.jpg"
+import movie from "../assets/portfolio/movie.jpg"
 
 const Portfolio = () => {
 
     const portfolios=[
         {
             id:1,
-            src:amazon,
-            title:'Amazon Website' ,
-            demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
+            src:movie,
+            title:'Movie Recommendation System' ,
+            demo:'https://github.com/sidjain13/movie-recommendation-system1'
             
         },
         {
@@ -34,16 +35,26 @@ const Portfolio = () => {
         },
         {
             id:4,
-            src:reactParallax,
+            src:amazon,
+            title:'Amazon Website' ,
+            demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
+            
         },
         {
-            id:5,
-            src:reactSmooth,
+            id:4,
+            src:amazon,
+            title:'Amazon Website' ,
+            demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
+            
         },
         {
-            id:6,
-            src:reactWeather,
+            id:4,
+            src:amazon,
+            title:'Amazon Website' ,
+            demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
+            
         },
+    
     ]
   return (
     <div id="Projects" className='w-full bg-gradient-to-b from-black to-gray-800 text-white h-screen' >

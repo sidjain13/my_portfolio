@@ -44,8 +44,8 @@ const Home = () => {
 //       </div>
 
 //     </div>
-<div id="Home" className='w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 '>
-      <div className='max-w-screen-lg  mx-auto flex flex-col items-center justify-between h-full md:flex-row '>
+<div id="Home" className='w-full h-screen bg-gradient-to-b from-black via-black to-gray-800'>
+      <div className='max-w-screen-lg  mx-auto flex flex-col items-center justify-between h-full md:flex-row px-4 md:px-0 '>
         <div className='flex flex-col justify-center h-full'>
             {/* <h2 className='text-white font-bold text-4xl sm:text-6xl '>I'm a Full Stack Developer</h2> */}
             {/* <h2 className='text-white font-bold text-4xl sm:text-7xl '>I'm a <br/>Full Stack Developer</h2> */}
