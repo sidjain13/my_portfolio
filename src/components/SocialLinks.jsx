@@ -59,7 +59,7 @@ const SocialLinks = () => {
             </li>
 
             <li className='flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300'>
-                <a href="https://drive.google.com/file/d/1Iqi4IHkfqPdfzo7FLZx4t6V5EmxmZIWc/view?usp=drive_link" target='_blank' download={true} className='flex justify-between items-center w-full text-white'>
+                <a href="https://drive.google.com/file/d/1dmDOnzcOvZQspNis5oIiX5j8HzVU5NQj/view?usp=sharing" target='_blank' download={true} className='flex justify-between items-center w-full text-white'>
                     <>
                         Resume <BsFillPersonLinesFill size={30}/>
                     </>

@@ -18,27 +18,99 @@ import pandas1 from '../assets/pandas1.jpg'
 import seaborn from '../assets/seaborn.webp'
 import powerBi from '../assets/powerBi.png'
 import flask from '../assets/flask (2).svg'
+import playwright from '../assets/playwright.webp'
+import selenium from '../assets/selenium.svg'
+import cucumber from '../assets/cucumber.svg'
+import testng from '../assets/testng.png'
+import java from '../assets/java.webp'
+import typescript from '../assets/typescript.webp'
+import jenkin from '../assets/jenkin.webp'
 
 
 const Experience = () => {
     const portfolios=[
         {
+            id:19,
+            src:playwright,
+            title:'Playwright',
+            style:'shadow-yellow-400',
+        },
+        {
+            id:20,
+            src:selenium,
+            title:'Selenium',
+            style:'shadow-green-700',
+        },
+        {
+            id:21,
+            src:cucumber,
+            title:'Cucumber',
+            style:'shadow-green-400',
+        },
+        // {
+        //     id:22,
+        //     src:testng,
+        //     title:'TestNg',
+        //     style:'shadow-red-400',
+        // },
+        {
+            id:23,
+            src:java,
+            title:'Java',
+            style:'shadow-orange-700',
+        },
+          {
+            id:3,
+            src:javascript,
+            title:'JavaScript',
+            style:'shadow-yellow-500',
+        },
+        {
+            id:24,
+            src:typescript,
+            title:'Typescript',
+            style:'shadow-blue-400',
+        },      
+       
+        {
             id:5,
             src:c,
             title:'C++',
-            style:'shadow-blue-700',
+            style:'shadow-blue-300',
         },
         {
             id:6,
             src:python,
             title:'Python',
-            style:'shadow-pink-500',
+            style:'shadow-blue-800',
         },
         {
             id:1,
             src:html,
             title:'HTML',
             style:'shadow-orange-500',
+        },
+          
+
+        
+        {
+            id:11,
+            src:sql,
+            title:'Sql',
+            style:'shadow-blue-300',
+        },
+        {
+           id:9,
+           src:mongodb,
+           title:'MongoDB',
+           style:'shadow-green-300',
+       },
+        
+        {
+            id:25,
+            src:jenkin,
+            title:'Jenkins',
+            style:'shadow-red-400',
         },
         {
             id:2,
@@ -52,12 +124,7 @@ const Experience = () => {
             title:'Tailwind',
             style:'shadow-blue-300',
         },
-        {
-            id:3,
-            src:javascript,
-            title:'JavaScript',
-            style:'shadow-yellow-500',
-        },
+      
         {
             id:7,
             src:nodejs,
@@ -80,19 +147,6 @@ const Experience = () => {
         
        
         
-        {
-            id:9,
-            src:mongodb,
-            title:'MongoDB',
-            style:'shadow-green-300',
-        },
-        
-        {
-            id:11,
-            src:sql,
-            title:'Sql',
-            style:'shadow-blue-300',
-        },
        
         {
             id:13,
@@ -113,12 +167,12 @@ const Experience = () => {
             title:'Power Bi',
             style:'shadow-yellow-500',
         },
-        {
-            id:18,
-            src:flask,
-            title:'Flask',
-            style:'shadow-gray-300',
-        },
+        // {
+        //     id:18,
+        //     src:flask,
+        //     title:'Flask',
+        //     style:'shadow-gray-300',
+        // },
 
         {
             id:14,

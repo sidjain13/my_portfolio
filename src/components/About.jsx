@@ -11,19 +11,22 @@ const About = () => {
 
         </div>
 
-        <p className='text-xl mt-20'>Hello guy's .  
-I am siddhant jain .
-Recently i am persuing my  BTech from Madhav Institute of Technology and Science 
+        <p className='text-xl mt-20'>Hello everyone , I am Siddhant Jain .
+Completed my B.Tech from Madhav Institute of Technology and Science 
 ( Gwalior ) .  </p>
 
         <br />
 
-        <p className='text-xl'>Proficient in various programming languages including C, C++, Python with
+        <p className='text-xl'>I specialize in Software Testing with strong experience in both Manual and Automation Testing. My automation skills include working with Selenium (Java) and Playwright (TypeScript), along with frameworks such as TestNG, Cucumber, and the Page Object Model (POM). I also work with CI/CD pipelines using Jenkins, follow industry-standard testing practices, and enjoy ensuring product quality through detailed test planning, execution, and reporting.
+        </p>
+        <br />
+
+        <p className='text-xl'> 
+        I am also know various programming languages including C, C++, Python with
 experience in developing web applications with the help of MERN , designing
 databases using MongoDB , SQL . Also I will able to extract meaningfull information
 from data for business . Collaborative team player with a proven track record of
-delivering high-quality work and achieving exceptional results.
- </p>
+delivering high-quality work and achieving exceptional results.</p>
       </div>
     </div>
   )

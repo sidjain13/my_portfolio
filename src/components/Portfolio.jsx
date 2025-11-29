@@ -12,10 +12,26 @@ import sales from "../assets/portfolio/sales.jpg"
 import movie from "../assets/portfolio/movie.jpg"
 import bloodBank from "../assets/portfolio/bloodBank.jpg"
 import doorLock from "../assets/portfolio/doorLock.jpg"
+import automationEcomm from "../assets/portfolio/automationEcomm.png"
+import automationTrain from "../assets/portfolio/automationTrain.png"
 
 const Portfolio = () => {
 
     const portfolios=[
+
+         {
+            id:7,
+            src:automationEcomm,
+            title:'Ecommerce (Playwright + Typescript)',
+            demo:'https://github.com/sidjain13/Ecommerce-E2E-Playwright-Automation'
+        },
+
+         {
+            id:8,
+            src:automationTrain,
+            title:'Train Ticket Booking (Selenium + Java)',
+            demo:'https://github.com/sidjain13/Train-Booking-System-Selenium-BDD-cucumber-Java-'
+        },
 
         {
             id:6,
@@ -39,20 +55,20 @@ const Portfolio = () => {
         {
             id:3,
             src:sales,
-            title:'Sales Dashboard',
+            title:'Sales Dashboard ( PowerBI )',
             demo:'https://github.com/sidjain13/sales-dashboard'
         },
         {
             id:4,
             src:amazon,
-            title:'Amazon Website (PHP)' ,
+            title:'Amazon Website ( PHP )' ,
             demo:'https://github.com/sidjain13/ecommerce-using-php./tree/main'
             
         },
         {
             id:5,
             src:bloodBank,
-            title:'Blood Bank Management System' ,
+            title:'Blood Bank Management ( MERN )' ,
             demo:'https://github.com/sidjain13/Blood-Bank-Management-System-Using-MERN/tree/main'
             
         },

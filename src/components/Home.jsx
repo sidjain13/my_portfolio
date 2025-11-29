@@ -7,7 +7,7 @@ import {useTypewriter , Cursor} from 'react-simple-typewriter'
 const Home = () => {
 
   const [typeEffect]=useTypewriter({
-    words:['Automation Tester','Programmer','Full Stack Developer','Data Analyst'],
+    words:['Automation Tester','Programmer','Web Developer','Data Analyst'],
     loop:{},
     typeSpeed:150, 
     deleteSpeed:60,
@@ -52,7 +52,7 @@ const Home = () => {
             <h2 className='text-white font-bold text-4xl sm:text-6xl '>I'm a </h2>
             <h2 className='text-white font-bold text-4xl sm:text-6xl '>{typeEffect}</h2>
 
-                  <p className='text-gray-500 py-4 max-w-md '>I love to work on web application using technologies like React , Tailwind , MongoDB , ExpressJs , NodeJs . Also Interested in programming using c++ and python as well .
+                  <p className='text-gray-500 py-4 max-w-md '>I am a QA Engineer specializing in manual and automation testing. Experienced with Selenium, Playwright, TestNG, Cucumber, POM, and Jenkins, I ensure software is thoroughly tested and delivered with high quality.
 </p>
 
             <div>
