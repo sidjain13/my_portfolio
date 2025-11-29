@@ -21,12 +21,12 @@ Completed my B.Tech from Madhav Institute of Technology and Science
         </p>
         <br />
 
-        <p className='text-xl'> 
+        {/* <p className='text-xl'> 
         I am also know various programming languages including C, C++, Python with
 experience in developing web applications with the help of MERN , designing
 databases using MongoDB , SQL . Also I will able to extract meaningfull information
 from data for business . Collaborative team player with a proven track record of
-delivering high-quality work and achieving exceptional results.</p>
+delivering high-quality work and achieving exceptional results.</p> */}
       </div>
     </div>
   )
