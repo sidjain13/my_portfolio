@@ -52,7 +52,7 @@ const Home = () => {
             <h2 className='text-white font-bold text-4xl sm:text-6xl '>I'm a </h2>
             <h2 className='text-white font-bold text-4xl sm:text-6xl '>{typeEffect}</h2>
 
-                  <p className='text-gray-500 py-4 max-w-md '>I am a QA Engineer specializing in manual and automation testing. Experienced with Selenium, Playwright, TestNG, Cucumber, POM .  
+                  <p className='text-gray-500 py-4 max-w-md '>Specializedin manual and automation testing. Experienced with Selenium, Playwright, TestNG, Cucumber, POM, and Jenkins, I ensure software is thoroughly tested and delivered with high quality.
 </p>
 
             <div>
