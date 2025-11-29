@@ -11,6 +11,7 @@ import heart from "../assets/portfolio/heart.jpg"
 import sales from "../assets/portfolio/sales.jpg"
 import movie from "../assets/portfolio/movie.jpg"
 import bloodBank from "../assets/portfolio/bloodBank.jpg"
+import doorLock from "../assets/portfolio/doorLock.jpg"
 
 const Portfolio = () => {
 
@@ -55,6 +56,27 @@ const Portfolio = () => {
             demo:'https://github.com/sidjain13/Blood-Bank-Management-System-Using-MERN/tree/main'
             
         },
+        // {
+        //     id:7,
+        //     src:doorLock,
+        //     title:'Door Lock System' ,
+        //     demo:'https://wokwi.com/projects/394794961813568513'
+            
+        // },
+        // {
+        //     id:8,
+        //     src:doorLock,
+        //     title:'Door Lock System' ,
+        //     demo:'https://wokwi.com/projects/394794961813568513'
+            
+        // },
+        // {
+        //     id:9,
+        //     src:doorLock,
+        //     title:'Door Lock System' ,
+        //     demo:'https://wokwi.com/projects/394794961813568513'
+            
+        // },
        
        
     
